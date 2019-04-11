@@ -10,8 +10,9 @@
 
 PS:如果很慢，把github.com的ip写到hosts里面去，测延迟去站长之家
 
-配置系统变量，新建变量名PUB_HOSTED_URL，变量值`https://pub.flutter-io.cn`，新建变量名FLUTTER_STORAGE_BASE_URL，变量值`https://storage.flutter-io.cn`
-
+配置系统变量：把flutter/bin的完整路径添加到系统变量Path目录下  
+配置用户变量：新建用户变量名PUB_HOSTED_URL，变量值`https://pub.flutter-io.cn`，  
+             新建用户变量名FLUTTER_STORAGE_BASE_URL，变量值`https://storage.flutter-io.cn`  
 重启Windows
 
 - 运行flutter doctor，会下载必要的包
